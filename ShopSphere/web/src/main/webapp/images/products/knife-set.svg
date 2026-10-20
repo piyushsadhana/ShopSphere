@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="grad_knife-set" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#71717a"/>
+      <stop offset="100%" stop-color="#3f3f46"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#grad_knife-set)" rx="16"/>
+  <circle cx="200" cy="130" r="75" fill="#ffffff" opacity="0.12"/>
+  <g filter="url(#shadow)">
+    <text x="200" y="145" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="54" font-weight="800" text-anchor="middle" fill="#ffffff">🔪</text>
+  </g>
+  <rect x="30" y="210" width="340" height="60" rx="10" fill="#ffffff" opacity="0.95"/>
+  <text x="200" y="248" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="700" text-anchor="middle" fill="#1e293b">Chef Knife Set</text>
+</svg>
